@@ -1,6 +1,6 @@
 # timelapse-rpi | A tkinter gui for pi camera timelapse
 
-Timelapse-rpi is a tiny, user-friendly interface for making a timelapse with the raspberry pi and his camera.
+Timelapse-rpi is a tiny, user-friendly interface for making a timelapse with the raspberry pi and its camera.
 
 So let's run it!
 ## Installation
@@ -36,6 +36,9 @@ If you want to delete old stills to make a new timelapse, open the stills folder
 If you're not blind you should have noticed the settings in the main window. Let's explain them.
 
 `images per minute`: The number of images to take each minute.
+
 `maximal time`: The duration of the image shotting (unless you press the stop button).
+
 `save path`: The path where to save the images and the ouput video.
+
 `start time (optional, hh:mm)`:  If not empty, the program will start at the specified time. Please use the hh:mm format. Example: entering 09:12 here means the timelapse will start at 12 past 9 in the morning.
